@@ -20,6 +20,7 @@ import android.widget.Toast;
 import com.example.R;
 import com.example.SQLconnection;
 import com.example.SelectListener;
+import com.example.SettingActivity;
 import com.example.videopackage.PlayVideoActivity;
 import com.example.videopackage.Video;
 import com.example.videopackage.VideoAllAPI;

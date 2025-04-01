@@ -144,7 +144,8 @@ public class VideoAllFragment extends Fragment {
                     }
                     // Update adapter with video list
                     videoAdapter.setData(videoList);
-
+                    // Shuffle the video list
+                    videoAdapter.shuffleVideos();
                     // Update the adapter after adding video
                     videoAdapter.notifyDataSetChanged();
                 } else {
